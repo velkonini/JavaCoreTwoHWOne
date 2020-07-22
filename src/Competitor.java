@@ -1,9 +1,9 @@
 public interface Competitor {
 
-    static void run(){
-    }
+    void run(int dist);
 
-    static void jump(){
+    void jump(int height);
 
-    }
+    boolean atDistance();
 }
+
